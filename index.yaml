@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  testing-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-06-10T17:41:23.061942+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 17ff2b78cd5ca80f61a4d1429e69760d105f2e6facb31b8c4fa328e3fc44d369
+    name: testing-chart
+    type: application
+    urls:
+    - https://shivpathak.github.io/helm-charts/testing-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-06-10T17:41:23.059285+05:30"
