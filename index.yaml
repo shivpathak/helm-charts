@@ -3,14 +3,14 @@ entries:
   prometheus:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-06-10T19:05:45.96037+05:30"
+    created: "2020-06-10T19:08:45.282936+05:30"
     dependencies:
     - condition: prometheus-operator.enabled, global.prometheus-operator.enabled
       name: prometheus-operator
       repository: https://kubernetes-charts.storage.googleapis.com
       version: 8.14.0
     description: A Helm chart for Kubernetes
-    digest: b0cca9c68143143a55a93a27390f23f687df7717c80098ffb4f2669dbe4e66c4
+    digest: be56260deb30579395443d97889cb997f84db7d9a7f8b192a48cba192b1bea56
     name: prometheus
     type: application
     urls:
@@ -19,7 +19,7 @@ entries:
   testing-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-06-10T19:05:45.961253+05:30"
+    created: "2020-06-10T19:08:45.284149+05:30"
     description: A Helm chart for Kubernetes
     digest: 17ff2b78cd5ca80f61a4d1429e69760d105f2e6facb31b8c4fa328e3fc44d369
     name: testing-chart
@@ -27,4 +27,4 @@ entries:
     urls:
     - https://shivpathak.github.io/helm-charts/testing-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2020-06-10T19:05:45.935376+05:30"
+generated: "2020-06-10T19:08:45.257141+05:30"
